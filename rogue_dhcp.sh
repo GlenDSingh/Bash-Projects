@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # --- Configuration ---
-VICTIM_IFACE="eth1" #Specifies the interface that is connected to victim hosts
+VICTIM_IFACE="eth1" # Specifies the interface that is connected to victim hosts
 INTERNET_IFACE="eth0" # Specifies the interface that is connected to the internet
-IP_ADDR="192.168.2.1" #Specifies the IP address on eth1 on Kali Linux
+IP_ADDR="192.168.2.1" # Specifies the IP address on eth1 on Kali Linux
 DHCP_RANGE="192.168.2.10,192.168.2.100,12h"
 
 # 1. THE NUCLEAR CLEANUP FUNCTION
