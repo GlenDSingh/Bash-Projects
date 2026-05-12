@@ -67,7 +67,11 @@ apt-get install -y -qq \
     lsb-release \
     software-properties-common \
     python3 \
-    git
+    git \
+    sed \
+    openssl \
+    uuid-runtime \
+    coreutils
 success "Dependencies installed."
 
 # =============================================================================
